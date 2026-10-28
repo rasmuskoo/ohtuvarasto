@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: uv sync
       - name: Run tests
-        run: uv run coverage run --branc -m pytest
+        run: uv run coverage run --branch -m pytest
